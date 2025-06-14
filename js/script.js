@@ -67,8 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const vehicleTrackingButton = document.getElementById('vehicle-tracking-btn');
     if (vehicleTrackingButton) {
         vehicleTrackingButton.addEventListener('click', function() {
-            alert('Funcionalidad de seguimiento de vehículo no implementada aún.');
-            // window.location.href = 'vehicle_tracking.html'; // Example redirect
+             window.location.href = 'auth-seguimiento.html';
         });
     }
 });
