@@ -41,13 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (password === "password123") { // Dummy password for demonstration
                     switch(role) {
                         case 'student':
-                            window.location.href = 'student.html'; // Student home page
+                            window.location.href = 'estudiante.html'; // Student home page
                             break;
                         case 'leader':
-                            window.location.href = 'coordinator-index.html'; // Leader home page
+                            window.location.href = 'coordi-index.html'; // Leader home page
                             break;
                         case 'coordinator':
-                            window.location.href = 'coordinator-index.html'; // Coordinator home page
+                            window.location.href = 'coordi-index.html'; // Coordinator home page
                             break;
                         default:
                             alert('Un error inesperado ocurrió.');
